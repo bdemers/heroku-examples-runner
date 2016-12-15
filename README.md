@@ -6,7 +6,7 @@ The pom.xml will download a war/jar artifact and run that with an appropriate ru
 
 Example:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bdemers/heroku-examples-runner&env\[ARTIFACT_ID\]=samples-spring-mvc)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bdemers/heroku-examples-runner&env\[ARTIFACT_ID\]=samples-spring-boot-web&&env\[RUNNER\]=spring-boot)
 
 Heroku requires an app.json at root of a git repo (not a bad requirement), but we (and other projects) have a lot of examples in 
 a Maven sub-module typically named `examples`.  This repo will wrap any Maven `war` or Spring-Boot `jar` project and download the latest release and run it.
