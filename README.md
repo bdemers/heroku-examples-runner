@@ -1,7 +1,7 @@
 Apache Shiro Example Runner
 ===========================
 
-Deploy A Maven based war or Spring-Boot jar artifact to Heroku.  This project is intended to enable simple way to bootstrap an example application to Heroku.
+Deploy a Maven based war or Spring-Boot jar artifact to Heroku.  This project is intended to enable simple way to bootstrap an example application to Heroku.
 The pom.xml will download a war/jar artifact and run that with an appropriate runner.
 
 Example:
