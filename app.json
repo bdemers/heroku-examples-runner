@@ -1,0 +1,28 @@
+{
+  "name": "ApacheShiroExampleRunner",
+  "description": "An example of using Apache Shiro.",
+  "keywords": [
+    "shiro",
+    "servlet",
+    "java"
+  ],
+  "repository": "https://github.com/bdemers/heroku-examples-runner",
+  "success_url": "/",
+  "env": {
+    "GROUP_ID": {
+      "description": "A Maven Artifact's Group ID",
+      "value": "org.apache.shiro.samples"
+    },
+    "ARTIFACT_ID": {
+      "description": "A Maven Artifact's ID"
+    },
+    "VERSION": {
+      "description": "A Maven Artifact's Version, '[0.0.0,)' will use the latest version",
+      "value": "[0.0.0,)"
+    },
+    "RUNNER": {
+      "description": "Which runner to use: 'jetty', 'tomcat', 'spring-boot'",
+      "value": "jetty"
+    }
+  }
+}
